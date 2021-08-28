@@ -6,7 +6,7 @@ namespace DigitalInnovationOne
   {
     static void Main(string[] args)
     {
-      int number = 5;
+      int number = 10;
       for (int i = 0; i < number; i++)
       {
         Console.WriteLine($"Bem-vindo ao curso de .NET {i}");
