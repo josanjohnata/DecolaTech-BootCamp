@@ -62,5 +62,13 @@ namespace Instrucoes
         Console.WriteLine(texto);
       } while (!string.IsNullOrEmpty(texto));
     }
+
+    static void InstrucaoFor(string[] args)
+    {
+      for (init i = 0; i < args.Length; i++)
+      {
+        Console.WriteLine(args[i]);
+      }
+    }
   }
 }
