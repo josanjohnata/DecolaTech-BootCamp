@@ -22,7 +22,7 @@ namespace Instrucoes
         Console.WriteLine("Um argumento");
       }
       else {
-        Console.WriteLine("${args.Length} argumentos");
+        Console.WriteLine($"{args.Length} argumentos");
       }
     }
 
@@ -36,7 +36,7 @@ namespace Instrucoes
           Console.WriteLine("um argumento");
           break;
         default:
-          Console.WriteLine("${numeroDeArgumentos} argumentos");
+          Console.WriteLine($"{numeroDeArgumentos} argumentos");
           break;
       }
     }
