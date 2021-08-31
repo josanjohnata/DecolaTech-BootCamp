@@ -71,4 +71,12 @@ namespace Instrucoes
       }
     }
   }
+
+  static void InstrucaoForeach(string[] args)
+  {
+    foreach (string s in args)
+    {
+      Console.WriteLine(s);
+    }
+  }
 }
