@@ -1,4 +1,3 @@
-// Boot Camp
 using System;
 
 namespace Instrucoes
