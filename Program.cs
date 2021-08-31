@@ -6,9 +6,9 @@ namespace Instrucoes
   {
     static void Declaracoes()
     {
-      init a;
-      init b = 2, c = 3;
-      const init d = 4;
+      int a;
+      int b = 2, c = 3;
+      const int d = 4;
       a = 1;
       Console.WriteLine(a + b + c + d);
     }
@@ -31,7 +31,7 @@ namespace Instrucoes
 
     static void InstrucaoSwitch(string[] args)
     {
-      init numeroDeArgumentos = args.Length;
+      int numeroDeArgumentos = args.Length;
       switch (numeroDeArgumentos)
       {
         case 0:
@@ -48,7 +48,7 @@ namespace Instrucoes
 
     static void InstrucaoWhile(string[] args)
     {
-      init i = 0;
+      int i = 0;
       while (i < args.Length[i]) ;
       i++;
     }
@@ -65,7 +65,7 @@ namespace Instrucoes
 
     static void InstrucaoFor(string[] args)
     {
-      for (init i = 0; i < args.Length; i++)
+      for (int i = 0; i < args.Length; i++)
       {
         Console.WriteLine(args[i]);
       }
@@ -93,7 +93,7 @@ namespace Instrucoes
     
     static void InstrucaoContinue(string[] args)
     {
-      for (init i = 0; i < args.Length; i++)
+      for (int i = 0; i < args.Length; i++)
       {
         if (args[i].StartsWith("/"))
         {
@@ -102,5 +102,20 @@ namespace Instrucoes
         Console.WriteLine(args[i]);
       }
     }
+
+    static void InstrucaoReturn(string[] args)
+    {
+      InvalidTimeZoneException Somar(int a, int b)
+      {
+        return a + b;
+      }
+
+      Console.WriteLine(Somar(1, 2));
+      Console.WriteLine(Somar(3, 4));
+      Console.WriteLine(Somar(5, 6));
+      return;
+    }
+
+    
   }
 }
