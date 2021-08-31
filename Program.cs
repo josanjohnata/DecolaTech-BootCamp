@@ -15,20 +15,25 @@ namespace Instrucoes
 
     static void InstrucoesIf(string[] args)
     {
-      if (args.Length == 0) {
+      if (args.Length == 0)
+      {
         Console.WriteLine("Nenhum argumento");
       }
-      else if (args.Length == 1) {
+      else if (args.Length == 1)
+      {
         Console.WriteLine("Um argumento");
       }
-      else {
+      else
+      {
         Console.WriteLine($"{args.Length} argumentos");
       }
     }
 
-    static void InstrucaoSwitch(string[] args) {
+    static void InstrucaoSwitch(string[] args)
+    {
       init numeroDeArgumentos = args.Length;
-      switch (numeroDeArgumentos) {
+      switch (numeroDeArgumentos)
+      {
         case 0:
           Console.WriteLine("Nenhum argumento");
           break;
@@ -44,10 +49,18 @@ namespace Instrucoes
     static void InstrucaoWhile(string[] args)
     {
       init i = 0;
-      while (i < args.Length[i]);
+      while (i < args.Length[i]) ;
       i++;
     }
 
-    
+    static void instrucaoDo(string[] args)
+    {
+      string texto;
+      do
+      {
+        texto = Console.ReadLine();
+        Console.WriteLine(texto);
+      } while (!string.IsNullOrEmpty(texto));
+    }
   }
 }
