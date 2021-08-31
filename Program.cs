@@ -90,5 +90,17 @@ namespace Instrucoes
       }
     }
 
+    
+    static void InstrucaoContinue(string[] args)
+    {
+      for (init i = 0; i < args.Length; i++)
+      {
+        if (args[i].StartsWith("/"))
+        {
+          continue;
+        }
+        Console.WriteLine(args[i]);
+      }
+    }
   }
 }
