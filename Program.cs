@@ -40,5 +40,12 @@ namespace Instrucoes
           break;
       }
     }
+
+    static void InstrucaoWhile(string[] args)
+    {
+      init i = 0;
+      while (i < args.Length[i]);
+      i++;
+    }
   }
 }
