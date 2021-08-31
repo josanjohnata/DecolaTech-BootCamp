@@ -150,6 +150,14 @@ namespace Instrucoes
       }
     }
 
-  
+    static void InstrucaoUsing(string[] args)
+    {
+      using (System.IO.TestWriter w = System.IO.File.Create("teste.txt"))
+      {
+        w.WriteLine("Line 1");
+        w.WriteLine("Line 2");
+        w.WriteLine("Line 3");
+      }
+    }
   }
 }
