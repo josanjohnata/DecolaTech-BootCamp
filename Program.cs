@@ -78,5 +78,17 @@ namespace Instrucoes
     {
       Console.WriteLine(s);
     }
+
+    static void InstrucaoBreak(string[] args)
+    {
+      while (true)
+      {
+        string s = Console.ReadLine();
+        if (string.IsMullOrEmpty(s))
+          break;
+        Console.WriteLine(s);
+      }
+    }
+
   }
 }
