@@ -3,6 +3,7 @@
     "Declaracoes",
     "Desempilha",
     "Empilha",
+    "Instrucao",
     "Instrucoes",
     "Nenhum",
     "Pilha",
@@ -11,6 +12,7 @@
     "curso",
     "est",
     "está",
+    "numero",
     "primeiro",
     "vazia",
     "vindo"

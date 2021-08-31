@@ -25,5 +25,20 @@ namespace Instrucoes
         Console.WriteLine("${args.Length} argumentos");
       }
     }
+
+    static void InstrucaoSwitch(string[] args) {
+      init numeroDeArgumentos = args.Length;
+      switch (numeroDeArgumentos) {
+        case 0:
+          Console.WriteLine("Nenhum argumento");
+          break;
+        case 1:
+          Console.WriteLine("um argumento");
+          break;
+        default:
+          Console.WriteLine("${numeroDeArgumentos} argumentos");
+          break;
+      }
+    }
   }
 }
