@@ -1,0 +1,16 @@
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/Revisao
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/Revisao.deps.json
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/Revisao.runtimeconfig.json
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/Revisao.runtimeconfig.dev.json
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/Revisao.dll
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/ref/Revisao.dll
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/bin/Debug/net5.0/Revisao.pdb
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.csproj.AssemblyReference.cache
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.GeneratedMSBuildEditorConfig.editorconfig
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.AssemblyInfoInputs.cache
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.AssemblyInfo.cs
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.csproj.CoreCompileInputs.cache
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.dll
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/ref/Revisao.dll
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.pdb
+/home/oem/bootcamp-decola-tech/DecolaTech-BootCamp/Revisao/obj/Debug/net5.0/Revisao.genruntimeconfig.cache
